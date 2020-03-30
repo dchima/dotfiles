@@ -29,7 +29,7 @@ fi
 brew bundle
 
 # Set default postgress root password.
-sudo -U postgres psql --command '\password postgres'
+sudo -u postgres psql --command '\password password' || sudo -u _postgres psql --command '\password password' 
 
 # Removes .zshrc && .zprofile from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc $HOME/.zprofile
