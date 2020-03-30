@@ -4,4 +4,4 @@ os: osx
 osx_image: xcode11.3
 
 install:
-    - ./init.sh
+    - sudo ./init.sh
