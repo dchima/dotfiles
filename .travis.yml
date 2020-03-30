@@ -1,6 +1,5 @@
-# https://docs.travis-ci.com/user/reference/osx/
-
 os: osx
-
-install:
-  - sudo ls -a
+osx_image: xcode10.2
+sudo: required
+script:
+  - bash init.sh # Test dotfile setup
