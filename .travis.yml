@@ -4,5 +4,4 @@ os: osx
 osx_image: xcode11.3
 
 install:
-  - sudo [ -d "dchima/dotfiles" ] && echo "Directory dchima/dotfiles exists."
-  - sudo [ -d "dotfiles" ] && echo "Directory dotfiles exists."
+  - sudo ls -a
