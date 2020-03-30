@@ -15,7 +15,6 @@ brew 'grep'
 brew 'tree' # List directories in a tree structure
 
 # Development
-brew 'postgresql'
 brew 'node'
 brew "pipenv"
 brew 'php'
