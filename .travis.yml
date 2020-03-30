@@ -7,4 +7,5 @@ install:
   - pwd
   - [ -d "dchima/dotfiles" ] && echo "Directory dchima/dotfiles exists."
   - [ -d "dotfiles" ] && echo "Directory dotfiles exists."
-  - ls 
+  - ls
+  
