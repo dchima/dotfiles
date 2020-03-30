@@ -16,14 +16,3 @@ brew 'tree' # List directories in a tree structure
 
 # Development
 brew 'postgresql@11'
-brew 'node'
-brew "pipenv"
-brew 'php'
-brew 'php@7.3'
-brew 'php@7.2'
-brew 'nasm'
-brew 'sqlite'
-brew 'yarn'
-
-# Apps
-cask 'google-chrome'
