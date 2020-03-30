@@ -29,7 +29,7 @@ fi
 brew bundle
 
 # Set default postgress root password.
-sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'postgres';"
+sudo psql -U my_macosx_username postgres -c "ALTER USER postgres WITH PASSWORD 'postgres';"
 
 # Removes .zshrc && .zprofile from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc $HOME/.zprofile
