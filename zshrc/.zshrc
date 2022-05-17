@@ -30,8 +30,11 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 export PATH="/usr/local/sbin:$PATH"
 
-#auto suggestions 
+#sources
+#
+#source auto suggestions 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 
 export FREEDESKTOP_MIME_TYPES_PATH=/Users/chima/web/work/helicarrier/utilities/freedesktop.org.xml
 
